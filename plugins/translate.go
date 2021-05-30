@@ -22,11 +22,11 @@ type Tran struct {
 
 func UseTranslateHandle() {
 
-	leafBot.OnCommand("/ts").
-		AddAllies("翻译").
+	leafBot.OnCommand("/ts1111").
+		AddAllies("翻译1111").
 		SetWeight(10).
 		SetBlock(false).
-		SetPluginName("翻译").
+		SetPluginName("翻译1111").
 		AddHandle(
 			func(event leafBot.Event, bot *leafBot.Bot, args []string) {
 				//if len(args)<1 {
