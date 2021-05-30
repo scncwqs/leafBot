@@ -15,11 +15,11 @@ import (
 )
 
 func init() {
-	leafBot.OnCommand("/weibo").
-		AddAllies("热搜").
+	leafBot.OnCommand("/weibo1111").
+		AddAllies("热搜1111").
 		SetWeight(10).
 		SetBlock(false).
-		SetPluginName("微博热搜").
+		SetPluginName("微博热搜11111").
 		AddHandle(weiBoHandle)
 }
 
